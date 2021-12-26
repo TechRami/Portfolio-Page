@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif !important;
+}
+
+#navbar li {
+  font-size: 1.3rem !important;
+  font-weight: medium;
+}
+
+#contactButton {
+  width: 130px;
+  border: none;
+  border-radius: 6px;
+  background-color: #6c63ff;
+}
+
+#contactButton a:hover {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+#contactButton a {
+  color: white;
+}
+
+/* ================================================================= */
+
+#headerSection {
+  height: 80vh;
+}
+
+#headerSection1 {
+  height: 80vh;
+  background-image: url(../svgs/undraw_programming_re_kg9v.svg);
+  background-repeat: no-repeat;
+  background-size: 90% 90%;
+  background-position: center;
+  right: 0%;
+  position: absolute;
+}
+
+.test {
+  background-image: url(../svgs/first_shape.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+@media screen and (max-width: 960px) {
+  .test {
+    background-image: url(../svgs/first_shape.svg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  #headerSection1 {
+    position: absolute;
+    left: 15%;
+    background-size: 350px 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 768px) {
+}
