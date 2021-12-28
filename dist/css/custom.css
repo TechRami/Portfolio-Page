@@ -7,16 +7,21 @@
   font-family: "Poppins", sans-serif !important;
 }
 
+nav a {
+  color: white !important;
+}
+
 #navbar li {
   font-size: 1.3rem !important;
   font-weight: medium;
 }
 
 #contactButton {
-  width: 130px;
+  padding: 5px 20px;
   border: none;
   border-radius: 6px;
-  background-color: #6c63ff;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #ed20ff, #ea00ff65);
 }
 
 #contactButton a:hover {
@@ -27,62 +32,70 @@
   color: white;
 }
 
+/* Header */
+
+.header-text {
+  color: white;
+  font-size: 64px;
+  font-weight: bolder;
+  justify-content: center;
+}
+
+.resume-button {
+  background-color: #ed20ff;
+  padding: 20px 40px 20px 40px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  border: none;
+}
+
 /* ================================================================= */
 
-#header1 {
-  height: 80vh;
-  background-color: rgba(255, 192, 203, 0.438);
-}
-#header2 {
-  height: 80vh;
-  background-color: rgba(235, 192, 255, 0.288);
-}
-
-.background-container {
-  height: 80vh;
-  background-image: url(../svgs/first_shape.svg);
+body {
+  height: 90vh;
+  background-image: url(../svgs/background-2.svg);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  position: relative;
 }
 
-.page-header {
-  font-weight: bold;
-  font-size: 3vw;
-  text-align: justify;
-  position: absolute;
-  top: 40%;
-  left: 18%;
+/* 767 width change header to center */
+
+#test {
+  max-width: 90%;
+  height: auto;
 }
 
-.page-header span {
-  color: #6c63ff;
+.section-c {
+  background-image: url(../svgs/sectionC2-BackgroundImage.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
 }
 
-.header-image {
-  width: 52%;
-  height: 52%;
-  position: absolute;
-  top: 20%;
-  right: 0%;
+.ggg img {
+  width: 20%;
 }
 
 @media screen and (max-width: 768px) {
-  .background-container {
-    background-position-y: 250px;
-    position: relative;
+  .zft {
+    margin: 0 auto;
   }
-}
-@media screen and (max-width: 569px) {
-  .header-image {
-    position: absolute;
-    top: 19%;
+  .header-text {
+    color: white;
+    font-size: 24px;
+
+    font-weight: bolder;
+    justify-content: center;
   }
-}
-@media screen and (max-width: 460px) {
-  .header-image {
-    position: absolute;
-    top: 15%;
+  .resume-button {
+    background-color: #ed20ff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    border: none;
   }
 }

@@ -18,62 +18,195 @@
     />
   </head>
   <body id="app" class="bg-light">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#"
-          ><img width="46" height="46" src="dist/svgs/Logo.svg" alt="Logo"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul id="navbar" class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-              <button id="contactButton">
-                <a class="nav-link" href="#">Contact</a>
-              </button>
-            </li>
-          </ul>
+    <header>
+      <nav class="navbar navbar-light navbar-expand-lg">
+        <div class="container-fluid w-75">
+          <a class="navbar-brand" href="#"
+            ><img width="46" height="46" src="dist/svgs/Logo.svg" alt="Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul id="navbar" class="navbar-nav ms-auto">
+              <li class="nav-item ms-4">
+                <a class="nav-link" href="#"
+                  >About<span style="color: #ed20ff"> Me</span></a
+                >
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link" href="#">Skills</a>
+              </li>
+              <li class="nav-item ms-4">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item ms-4">
+                <button id="contactButton">
+                  <a class="nav-link" href="#">Contact Me</a>
+                </button>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
 
-    <main class="container mt-5">
-      <section class="row background-container">
-        <div class="col-md-6">
-          <h1 style="background-color: rgb(255, 82, 82)" class="page-header">
-            Web <span>Developer</span>
-          </h1>
+      <section class="container-fluid w-75">
+        <div class="row">
+          <div class="col-md-6"></div>
+          <div style="height: 70vh" class="col-md-6 d-flex">
+            <div style="align-self: center" class="zft">
+              <span style="color: #ed20ff; font-size: 14px; font-weight: 700"
+                >-introducing</span
+              >
+              <h1 class="header-text">
+                Hello<br />
+                I'm Rami
+              </h1>
+              <button class="resume-button">View Resume</button>
+            </div>
+          </div>
         </div>
-        <div
-          style="background-color: rgba(95, 255, 95, 0.267)"
-          class="col-md-6"
-        >
+      </section>
+    </header>
+
+    <main style="margin-top: 350px" class="container-fluid w-75">
+      <section class="row">
+        <div class="col-md-6 text-center">
           <img
-            class="header-image"
-            src="dist/svgs/header_coding.svg"
-            alt="header-image"
+            id="test"
+            src="dist/svgs/sectionB-Programmer-Svg.svg"
+            alt="programmer-image"
           />
+        </div>
+        <div class="col-md-6 d-flex">
+          <div style="align-self: center">
+            <h1 style="color: #5920ff; font-weight: 800">
+              About <span style="color: #3f3d56">Me</span>
+            </h1>
+            <p style="font-size: 18px" class="mt-4">
+              My Name is Rami, I’m 21 years old, I live in Saudi Arabia. I am a
+              software engineer. I’ve been interested in web development since I
+              was a kid, it has always been my passion.
+              <br />
+              <br />
+              I started learning about Front-End development in the 2018, I’ve
+              dedicated most of my time exploring the wide world internet and
+              learniing few technologies as well as reading about the rest.
+            </p>
+          </div>
         </div>
       </section>
     </main>
+
+    <section style="margin-top: 200px" class="container-fluid section-c d-flex">
+      <div style="align-self: center; margin: 0 auto" class="row">
+        <div
+          style="height: 150%; align-self: center"
+          class="col-md-6 text-center"
+        >
+          <h1
+            style="
+              color: #ffffff;
+              font-weight: 800;
+              text-shadow: 2px 2px 48px #ed20ff;
+            "
+            class
+          >
+            My <span style="color: #ed20ff">Skills</span>
+          </h1>
+        </div>
+        <div class="col-md-6 text-center">
+          <div style="align-self: center; margin: 0 auto" class="d-flex">
+            <div class="ggg">
+              <img src="dist/svgs/html-icon.svg" alt="" />
+              <img src="dist/svgs/css-icon.svg" alt="" />
+              <img src="dist/svgs/js-icon.svg" alt="" />
+              <img src="dist/svgs/bootstrap-icon.svg" alt="" />
+
+              <img src="dist/svgs/react-icon.svg" alt="" />
+              <img src="dist/svgs/vue-icon.svg" alt="" />
+              <img src="dist/svgs/git-icon.svg" alt="" />
+              <img src="dist/svgs/nodejs-icon.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top: 200px" class="container-fluid w-75">
+      <h1 style="color: #3f3d56; font-weight: 800" class="text-center">
+        Projects
+      </h1>
+      <div class="row row-cols-1 row-cols-md-3 mt-5">
+        <div class="col">
+          <div class="card">
+            <img
+              src="dist/svgs/card-empty.png"
+              alt="..."
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                est dignissimos neque, architecto soluta ea deleniti eligendi,
+                nesciunt asperiores tempore, numquam quasi repellendus quae
+                atque?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="dist/svgs/card-empty.png"
+              alt="..."
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                est dignissimos neque, architecto soluta ea deleniti eligendi,
+                nesciunt asperiores tempore, numquam quasi repellendus quae
+                atque?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="dist/svgs/card-empty.png"
+              alt="..."
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                est dignissimos neque, architecto soluta ea deleniti eligendi,
+                nesciunt asperiores tempore, numquam quasi repellendus quae
+                atque?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      style="height: 25vh; margin-top: 200px; background-color: #242424"
+      class="container-fluid-w-75"
+    ></section>
 
     <!-- My script file -->
     <script src="dist/js/script.js"></script>
